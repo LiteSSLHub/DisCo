@@ -4,7 +4,7 @@ This is the repository of the paper ***[DisCo: Co-training Distilled Student Mod
 
 DisCo is a novel semi-supervised framework that addresses the challenges of both limited labeled data and computation resources in text mining tasks. 
 
-We are able to produce light-weight model with DisCo that are 7.6$\times$ smaller and 4.8$\times$ faster in inference than the baseline PLMs while maintaining comparable performance.
+We are able to produce light-weight model with DisCo that are 7.6&times; smaller and 4.8&times; faster in inference than the baseline PLMs while maintaining comparable performance.
 
 DisCo-generated student models outperform the similar-sized models elaborately tuned in distinct tasks.
 
@@ -34,7 +34,7 @@ We provide all datasets used in our experiments:
 
 ## Usage
 
-#### Step 1:
+### Step 1:
 
 Convert the downloaded WikiText-103 dataset into the format of BERT pre-training.
 
@@ -48,7 +48,7 @@ python src/pregenerate_training_data.py --train_corpus ${CORPUS_RAW} \
 
 -----
 
-#### Step 2:
+### Step 2:
 
 Using the pre-training dataset obtained from step 1, we conduct knowledge distillation. We employ the BERT model as the teacher model. From this, we derive smaller student models that incorporate various layers of knowledge from the teacher. These student models serve as an effective initialization with model view for downstream tasks.
 
@@ -76,7 +76,7 @@ For convenience, we provide all the general distilled student models used in Tab
 
 -----
 
-#### Step 3:
+### Step 3:
 
 From the distilled student models generated in step 2, we apply the semi-supervised co-training method. This approach leverages unlabeled data and shares the diverse layer knowledge from the teacher model that are embedded in different student models. As a result, we obtain fine-tuned student models with performance comparable to that of the teacher model.
 
