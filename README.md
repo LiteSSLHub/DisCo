@@ -30,7 +30,7 @@ The pyrouge package requires additional installation procedures. If you need to 
 We provide all datasets used in our experiments:
 
 - The dataset used for general distillation is **[WikiText-103](https://huggingface.co/datasets/wikitext)**.
-- All the datasets used for downstream tasks are [**Agnews**, **Yahoo!Answer**, **DBpedia** and **CNN/DailyMail**](https://drive.google.com/drive/folders/1vnk81Xm4IgPSHZv71R-ygJmo-aiba_2P?usp=sharing). Please place the downloaded dataset folders into the ```./data``` folder.
+- All the datasets used for downstream tasks are [**Agnews**, **Yahoo!Answer**, **DBpedia** and **CNN/DailyMail**](https://drive.google.com/file/d/1skFKn8GQKWbh7JL3dnuavcP69Vp5tk4z/view?usp=sharing). Please unzip the downloaded file and replace the empty ``./data``` folder.
 
 ## Usage
 
@@ -69,10 +69,10 @@ python src/general_distill.py --pregenerated_data ${CORPUS_JSON} \
 
 For convenience, we provide all the general distilled student models used in Tables 2, 4, and 6.
 
-- [6layer_2student_6epoch](https://drive.google.com/drive/folders/1kvcbSzKtB178AulCIIuqfAjGHQ9FslJp?usp=sharing) ($\rm S^{A6}$ and $\rm S^{B6}$)
-- [4layer_2student_6epoch](https://drive.google.com/drive/folders/1hyvwi7wYcS-IFSQQN-3Utc1B77QCHqZi?usp=sharing) ($\rm S^{A4}$ and $\rm S^{B4}$)
-- [2layer_2student_6epoch](https://drive.google.com/drive/folders/1awLz9yYZS1RRZ9rURkxf2Wwin9pg_Y54?usp=sharing) ($\rm S^{A2}$ and $\rm S^{B2}$)
-- [6layer_4student_6epoch](https://drive.google.com/drive/folders/1vX3Jem-IoNDNLOGkxu-zjjTZ_UTDqE6x?usp=sharing) ($\rm S^{A2}$,  $\rm S^{B2}$, $\rm S^{C2}$ and $\rm S^{D2}$)
+- [6layer_2student_6epoch](https://drive.google.com/file/d/1WoG0Ga5xxIhrGjKjqJsjnzsxGMWHqs-u/view?usp=sharing) ($\rm S^{A6}$ and $\rm S^{B6}$)
+- [4layer_2student_6epoch](https://drive.google.com/file/d/1iddkeU41YI-t4JAtzK85dvIe0yvatEOJ/view?usp=sharing) ($\rm S^{A4}$ and $\rm S^{B4}$)
+- [2layer_2student_6epoch](https://drive.google.com/file/d/12e70V80uwwi-9ZJ0mJTpX_fQtc5X1FV4/view?usp=sharing) ($\rm S^{A2}$ and $\rm S^{B2}$)
+- [6layer_4student_6epoch](https://drive.google.com/file/d/15d01WSy505OZHpqsE3NCaGYz7X56chnj/view?usp=sharing) ($\rm S^{A2}$,  $\rm S^{B2}$, $\rm S^{C2}$ and $\rm S^{D2}$)
 
 -----
 
