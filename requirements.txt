@@ -1,0 +1,6 @@
+numpy
+torch
+transformers
+pyrouge
+rouge
+boto3
