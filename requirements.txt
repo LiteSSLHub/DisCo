@@ -2,5 +2,8 @@ numpy
 torch
 transformers
 pyrouge
-rouge
 boto3
+pyarrow
+scikit-learn
+py-rouge
+nltk

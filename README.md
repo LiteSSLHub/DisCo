@@ -14,8 +14,11 @@ DisCo-generated student models outperform the similar-sized models elaborately t
 - torch
 - transformers
 - pyrouge
-- rouge
+- py-rouge
 - boto3
+- pyarrow
+- scikit-learn
+- nltk
 
 Run command below to install all the environment in need(**using python3**)
 
@@ -30,7 +33,7 @@ The pyrouge package requires additional installation procedures. If you need to 
 We provide all datasets used in our experiments:
 
 - The dataset used for general distillation is **[WikiText-103](https://huggingface.co/datasets/wikitext)**.
-- All the datasets used for downstream tasks are [**Agnews**, **Yahoo!Answer**, **DBpedia** and **CNN/DailyMail**](https://drive.google.com/file/d/1skFKn8GQKWbh7JL3dnuavcP69Vp5tk4z/view?usp=sharing). Please unzip the downloaded file and replace the empty ``./data``` folder.
+- All the datasets used for downstream tasks are [**Agnews**, **Yahoo!Answer**, **DBpedia** and **CNN/DailyMail**](https://drive.google.com/file/d/1skFKn8GQKWbh7JL3dnuavcP69Vp5tk4z/view?usp=sharing). Please unzip the downloaded file and replace the empty ```./data``` folder.
 
 ## Usage
 
