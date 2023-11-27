@@ -4,7 +4,7 @@ This is the repository of the paper ***[DisCo: Co-training Distilled Student Mod
 
 DisCo is a novel semi-supervised framework that addresses the challenges of both limited labeled data and computation resources in text mining tasks. 
 
-We are able to produce light-weight model with DisCo that are 7.6&times; smaller and 4.8&times; faster in inference than the baseline PLMs while maintaining comparable performance.
+We are able to produce light-weight model with DisCo that are 7.6&times; smaller and 4.8&times; faster in inference than the baseline PLMs while maintaining prominent performance.
 
 DisCo-generated student models outperform the similar-sized models elaborately tuned in distinct tasks.
 
