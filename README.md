@@ -116,10 +116,26 @@ All the example scripts can be found in `./script`
 ## Citation
 
 ```
-@article{jiang2023disco,
-  title={DisCo: Distilled Student Models Co-training for Semi-supervised Text Mining},
-  author={Jiang, Weifeng and Mao, Qianren and Li, Jianxin and Lin, Chenghua and Yang, Weiyi and Deng, Ting and Wang, Zheng},
-  journal={arXiv preprint arXiv:2305.12074},
-  year={2023}
+@inproceedings{jiang-etal-2023-disco,
+    title = "{D}is{C}o: Distilled Student Models Co-training for Semi-supervised Text Mining",
+    author = "Jiang, Weifeng  and
+      Mao, Qianren  and
+      Lin, Chenghua  and
+      Li, Jianxin  and
+      Deng, Ting  and
+      Yang, Weiyi  and
+      Wang, Zheng",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.244",
+    doi = "10.18653/v1/2023.emnlp-main.244",
+    pages = "4015--4030",
+    abstract = "Many text mining models are constructed by fine-tuning a large deep pre-trained language model (PLM) in downstream tasks. However, a significant challenge that arises nowadays is how to maintain performance when we use a lightweight model with limited labeled samples. We present DisCo, a semi-supervised learning (SSL) framework for fine-tuning a cohort of small student models generated from a large PLM using knowledge distillation. Our key insight is to share complementary knowledge among distilled student cohorts to promote their SSL effectiveness. DisCo employs a novel co-training technique to optimize a cohort of multiple small student models by promoting knowledge sharing among students under diversified views: model views produced by different distillation strategies and data views produced by various input augmentations. We evaluate DisCo on both semi-supervised text classification and extractive summarization tasks. Experimental results show that DisCo can produce student models that are $7.6\times$ smaller and $4.8 \times$ faster in inference than the baseline PLMs while maintaining comparable performance. We also show that DisCo-generated student models outperform the similar-sized models elaborately tuned in distinct tasks.",
 }
 ```
